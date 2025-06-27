@@ -1,0 +1,9 @@
+crewai 
+langchain 
+faiss-cpu 
+sentence-transformers 
+huggingface-hub 
+ragas 
+datasets
+pathlib
+crewai-tools

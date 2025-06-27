@@ -1,0 +1,13 @@
+CrewAI is a Python framework to orchestrate multiple AI agents with roles and goals.
+Agents can collaborate, retrieve knowledge, critique outputs, and form dynamic workflows.
+
+Retrieval-Augmented Generation (RAG) combines a retriever + generator.
+The retriever fetches documents from a vector store (like FAISS).
+The generator (LLM) uses the retrieved context to answer the query accurately.
+
+FAISS (Facebook AI Similarity Search) is a fast vector database.
+You create embeddings using models like all-MiniLM-L6-v2 and save them to FAISS.
+Later, you retrieve top-K relevant chunks using cosine similarity.
+
+RAG Evaluation: Use metrics like faithfulness, context precision, answer relevancy.
+RAGAS is a tool to evaluate RAG pipelines with LLM-based scoring.
