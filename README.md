@@ -23,7 +23,7 @@ This project is a multi-agent system powered by [CrewAI](https://docs.crewai.com
 ### 1. Clone this repo
 
 ```bash
-git clone https://github.com/your-username/crewai-rag-agent.git
+git clone https://github.com/tch0405/crewai-rag-agent.git
 cd crewai-rag-agent
 
 ```
